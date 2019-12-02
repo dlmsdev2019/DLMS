@@ -34,3 +34,7 @@ git commit -m 'Added Demo.txt' Demo.txt
 --transfer file to git repository
 git push -u origin master
 
+--if you change in your file, then try to commit.
+
+
+
