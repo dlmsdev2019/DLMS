@@ -25,7 +25,6 @@ ennter your password....
 
 git clone https://github.com/rezaice07/DLMS.git
 
-
 --add file in git repository
 
 git add file_name
@@ -62,4 +61,3 @@ git push
 
 --deleting branch
 git branch -D slave
-
