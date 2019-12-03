@@ -20,5 +20,5 @@ ennter your password....
 
 git clone https://github.com/rezaice07/DLMS.git
 
-
-nnnnnn
+-----------------
+This is from slave changes....
