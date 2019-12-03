@@ -1,3 +1,8 @@
+resouces: https://git-scm.com/download/win
+
+--clean screen
+ctrl+L
+
 --select directory
 cd /D
 
@@ -19,4 +24,47 @@ ennter your password....
 --clone git repository
 
 git clone https://github.com/rezaice07/DLMS.git
-//comming soon
+
+
+--add file in git repository
+
+git add file_name
+
+or you can add multiple files
+
+
+--check status
+git status
+
+--commit file
+git commit -m 'Added Demo.txt' Demo.txt
+
+--transfer file to git repository
+git push -u origin master
+
+
+--get update from master branch
+git pull origin master
+
+--creating a new branch
+git checkout -b slave
+
+--push your branch to github repository
+git push -u origin slave
+
+--switching into the branch
+git switch slave
+
+--commit modified files
+git commit -am "Comment: Modified in demo.txt"
+then 
+git push
+
+--marge branch with master 
+git checkout master 
+git merge slave
+git push -u origin master 
+
+--deleting branch
+git branch -D slave
+
