@@ -25,6 +25,7 @@ ennter your password....
 
 git clone https://github.com/rezaice07/DLMS.git
 
+
 --add file in git repository
 
 git add file_name
@@ -59,5 +60,11 @@ git commit -am "Comment: Modified in demo.txt"
 then 
 git push
 
+--marge branch with master 
+git checkout master 
+git merge slave
+git push -u origin master 
+
 --deleting branch
 git branch -D slave
+
